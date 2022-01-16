@@ -1,0 +1,39 @@
+{
+  "name": "openzeppelin-study",
+  "version": "1.0.0",
+  "description": "openzeppelin-study",
+  "author": "Neo",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nuxt",
+    "testDev": "cross-env NODE_ENV=test nuxt",
+    "proDev": "cross-env NODE_ENV=pro nuxt",
+    "build:test": "cross-env NODE_ENV=test nuxt build",
+    "start:test": "cross-env NODE_ENV=test nuxt start",
+    "generate:test": "cross-env NODE_ENV=test nuxt generate",
+    "build": "cross-env NODE_ENV=pro nuxt build",
+    "start": "cross-env NODE_ENV=pro nuxt start",
+    "generate": "cross-env NODE_ENV=pro nuxt generate"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bignumber.js": "^5.0.0",
+    "@types/vue-i18n": "^7.0.0",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.2",
+    "cross-env": "^7.0.3",
+    "ethers": "^5.4.6",
+    "iview": "^3.5.4",
+    "nuxt": "^2.0.0",
+    "uuid": "^8.3.2",
+    "vue-i18n": "^8.26.7",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/compression-webpack-plugin": "^9.1.1",
+    "@types/less": "^3.0.3",
+    "compression-webpack-plugin": "^6.1.1",
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0"
+  }
+}
